@@ -9,5 +9,5 @@ import com.example.demo.dto.MemberDTO;
 @Mapper
 public interface MemberMapper {
 	List<MemberDTO> selectMemberList();
-	MemberDTO selectMemberDetail(@Param("paramID") String id);
+	MemberDTO selectMemberDetail(@Param("paramId") String id);
 }
