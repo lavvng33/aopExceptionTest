@@ -28,5 +28,9 @@ public class MemberController {
 		mv.addObject("list", list);
 		return mv;
 	}
-	
+	@RequestMapping("/")
+	public void meSberList() {
+		log.info("========================== MemberController(/member/list) ==================================");
+		
+	}
 }
